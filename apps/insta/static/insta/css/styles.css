@@ -1,0 +1,213 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+    font-family:'Raleway';
+    width:auto;
+    height:auto;
+}
+.main{
+    margin-top: 200px;
+    margin-bottom:200px;
+    border: 1px solid rgb(149, 210, 245);
+    background-color:white;
+    padding:10px;
+    box-shadow: 10px 5px 5px rgb(149, 210, 245);
+    text-align:center; 
+    overflow:auto;
+}
+
+h1{
+    color:#528AAE;
+    text-align:center;
+    text-transform: uppercase;
+    padding:10px 0px 40px;
+}
+.download{
+    text-align:center;
+    margin-top:-170px;
+    padding: 0px 0px 20px;
+}
+
+img{
+    width:166px;
+    display: inline-block;
+}
+
+p{
+    text-align:center;
+    font-size:1.2rem;
+
+}
+
+.line{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid rgb(216, 219, 226); 
+    line-height: 0.1em;
+    margin: 20px 0 40px; 
+}
+.line span{
+    background:#fff; 
+    padding:0 10px; 
+}
+.boxone{
+    border: 1px solid rgb(149, 210, 245);
+    box-shadow: 5px 5px 5px rgb(149, 210, 245);
+    margin-top:-170px;
+    background-color:white;
+    padding:15px;
+    text-align: center;
+}
+
+.navbar{
+    background-color:white;
+    display:flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+    flex-direction:row;
+    width:100%;
+    margin:0px;
+    
+}
+.navbar h1{
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 25%;
+}
+
+.list{
+    padding:10px;
+}
+.navlist span{
+    padding: 5px 10px;
+    width:25%;
+    height: 35px;   
+}
+.topnav{
+    text-align:center;
+}
+
+.content{
+    border:2px solid purple;
+    padding:10px;
+    margin-top:80px;
+    width:100%;
+    height:800px;
+}
+.leftbox{
+    float:left;
+    border:2px solid grey;
+    border-radius:5px;
+    background-color:white;
+    position:relative;
+    /* height:auto; */
+    /* overflow-y: scroll; */
+}
+.leftbox .user{
+    width:100%;
+    padding:10px;
+    
+}
+.imagebox{
+    width:100%;
+}
+.imagebox img{
+    width:100%;
+}
+.action{
+    margin:5px;
+}
+.actionlist span{
+    margin:10px;
+    width:25%;
+    height: 35px;
+}
+.likes p{
+    text-align:left;
+    font-size:15px;
+    padding:0px 20px;
+}
+.rightbox{
+    float:right;
+    width:35%;
+    padding:10px;
+}
+.user-info{
+    width:100%;
+    margin-top:50px;
+}
+.info img{
+    width:18%;
+    border-radius:50%;
+}
+.info span{
+    font-size:1.5rem;
+    padding:5px;
+}
+.info a{
+    font-size:1rem;
+}
+.info p{
+    border:1px solid black;
+    padding:10px;
+}
+.about{
+    padding:10px;
+}
+.about span{
+    font-size:1rem;
+}
+.friend{
+    border:1px solid grey;
+    border-radius:5px;
+    margin-top:20px;
+}
+.friend h4{
+    padding:5px;
+}
+
+.friend p{
+    text-align:left;
+    font-size:1rem; 
+    padding:5px;
+    margin:5px;
+}
+.messages{
+    border:2px solid black;
+    width:100%;
+
+}
+
+
+
+/* footer p{
+    margin-bottom: 10px;
+    border: 1px solid red;
+    font-size:1rem;
+} */
+
+
+
+
+/* @media screen and (max-width: 400px) {
+    .topnav {
+      border:2px solid yellow;
+      
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+     
+   
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  } */
